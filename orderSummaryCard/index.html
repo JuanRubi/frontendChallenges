@@ -28,8 +28,10 @@
     </style>
   </head>
   <body>
-    <img src="./images/pattern-background-desktop.svg" alt="" />
+    <!--    Background image of entire app    
+    <img src="./images/pattern-background-desktop.svg" alt="" /> -->
 
+    <!--    Order Summary Card    -->
     <main>
       <img src="./images/illustration-hero.svg" alt="" />
       <h2>Order Summary</h2>
@@ -37,16 +39,22 @@
         You can now listen to millions of songs, audiobooks, and podcasts on any
         device anywhere you like!
       </p>
-      <div>
+
+      <!--    Selected Plan   -->
+      <div class="choosenPlan">
         <img src="./images/icon-music.svg" alt="" />
-        <h4>Annual Plan</h4>
-        <p>$59.99/year</p>
+        <div>
+          <h4>Annual Plan</h4>
+          <p>$59.99/year</p>
+        </div>
         <a href="#">Change</a>
       </div>
 
       <!--  Think about using button tag instead of a tag.  -->
-      <div><a class="goToPayment" href="#">Proceed to Payment</a></div>
-      <div><a class="cancelOrder" href="#">Cancel Order</a></div>
+      <div class="pay">
+        <a class="goToPayment" href="#">Proceed to Payment</a>
+      </div>
+      <div class="cancel"><a class="cancelOrder" href="#">Cancel Order</a></div>
     </main>
 
     <div class="attribution">

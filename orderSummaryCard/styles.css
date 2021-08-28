@@ -1,4 +1,56 @@
 /*----------------------------------------------------------------------------------------
 This contains the styling for the order summary card challenge.
 Estimated Time to Completion: 3 hours
+Actual Time to Completion: 45 mins
 ----------------------------------------------------------------------------------------*/
+
+/*------------------      Master Styles       ---------------------*/
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center 8rem;
+
+  border: 0.5rem solid green;
+  max-width: 1440px;
+  height: 50rem;
+  margin: 8rem auto;
+}
+
+main {
+  max-width: 450px; /* Doesn't seem to affect image in card. */
+  margin: 7rem auto;
+  text-align: center;
+
+  border: 0.5rem solid red;
+  border-radius: 3rem;
+}
+
+/*------------------      Main Section Styles       ---------------------*/
+.choosenPlan {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*------------------      Payment Styles       ---------------------*/
+.pay {
+  background-color: blue;
+  height: 2rem;
+}
+
+.goToPayment {
+  color: #ddd;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: -0.03rem;
+  text-decoration: none;
+}
+
+.cancelOrder {
+  color: #888;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*------------------      Master Styles       ---------------------*/
